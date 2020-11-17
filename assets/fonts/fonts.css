@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Stampbor';
+    src: url("StampborGrungeRussian.woff2") format("woff2"), url("StampborGrungeRussian.woff") format("woff");
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'DecimaNovaPro';
+    src: url("DecimaNovaPro.woff") format("woff"), url("DecimaNovaPro.woff2") format("woff2");
+    font-weight: 400
+}
