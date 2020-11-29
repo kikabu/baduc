@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<meta name="viewport" content="width=1200px">-->
 
     <link rel="stylesheet" href="./assets/css/swiper.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
 </head>
 
-<body>
+<body class="vsc-initialized">
     <div class="wrapper">
         <section class="sec1">
             <div class="container">
@@ -156,7 +157,7 @@
                             <h3>В результате 60-дневного марафона
                                 «Страна Героев 2.0» ты:</h3>
 
-                                <!--добавить анимацию на появление li -->
+                            <!--добавить анимацию на появление li -->
                             <ul>
                                 <li>
                                     <p>добьешься красивого рельефного пресса, подкачанных плеч, рук, ног</p>
@@ -279,21 +280,23 @@
                 <div class="row">
                     <h2>Сделай этот шаг сегодня!</h2>
                     <div class="slider">
-                        <div class="swiper-container">
+                        <div class="swiper-container sliderFirst sliderNav">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="comparison">
                                         <div class="before">
                                             <div class="picture">
                                                 <img src="./assets/img/before.jpg" alt="before">
-                                                
-                                            </div><div class="text">до</div>
+
+                                            </div>
+                                            <div class="text">до</div>
                                         </div>
                                         <div class="after">
                                             <div class="picture">
                                                 <img src="./assets/img/after.jpg" alt="after">
-                                                
-                                            </div><div class="text">после</div>
+
+                                            </div>
+                                            <div class="text">после</div>
                                         </div>
                                     </div>
 
@@ -319,40 +322,37 @@
                 <div class="row">
                     <h2>Это реальные фото участников <br>
                         первого уровня марафона «Страна Героев»</h2>
-                        <p>Соедини верно фотографии участников с первого раза и <span>получи скидку!</span></p>
+                    <p>Соедини верно фотографии участников с первого раза и <span>получи скидку!</span></p>
                     <div class="dragAndDrop">
                         <div id="wrap">
                             <div class="grid">
                                 <div class="frame">
                                     <img class="unselectable" dragable="false" ondrop="drop(event)"
-                                        ondragover="disableDrop(event)"
-                                        width="170px" height="220px"
-                                        src="./assets/img/1.jpg"
-                                        alt="" />
+                                        ondragover="disableDrop(event)" width="170px" height="220px"
+                                        src="./assets/img/1.jpg" alt="">
                                 </div>
                                 <div class="frame">
-                                    <img dragable="true" width="170px" height="220px"
-                                        src="./assets/img/2.jpg" alt="" />
+                                    <img dragable="true" width="170px" height="220px" src="./assets/img/2.jpg" alt="">
                                 </div>
                                 <div class="frame">
-                                    <img dragable="true" width="170px" height="220px" src="./assets/img/33.jpg" alt="" />
+                                    <img dragable="true" width="170px" height="220px" src="./assets/img/33.jpg" alt="">
                                 </div>
                                 <div class="frame">
                                     <img class="unselectable" dragable="false" width="170px" height="220px"
-                                        src="./assets/img/44.jpg" alt="" />
+                                        src="./assets/img/44.jpg" alt="">
                                 </div>
                                 <div class="frame">
-                                    <img dragable="true" width="170px" height="220px" src="./assets/img/3.jpg" alt="" />
+                                    <img dragable="true" width="170px" height="220px" src="./assets/img/3.jpg" alt="">
                                 </div>
                                 <div class="frame">
-                                    <img dragable="true" width="170px" height="220px" src="./assets/img/4.jpg" alt="" />
+                                    <img dragable="true" width="170px" height="220px" src="./assets/img/4.jpg" alt="">
                                 </div>
                                 <div class="frame">
-                                    <img dragable="true" width="170px" height="220px" src="./assets/img/11.jpg" alt="" />
+                                    <img dragable="true" width="170px" height="220px" src="./assets/img/11.jpg" alt="">
                                 </div>
                                 <div class="frame">
                                     <img class="unselectable" dragable="false" width="170px" height="220px"
-                                        src="./assets/img/22.jpg" alt="" />
+                                        src="./assets/img/22.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -369,7 +369,7 @@
                             <span></span>
                         </a>
                         <div id="video-overlay" class="video-overlay scroll-hidden">
-                            <a class="video-overlay-close">&times;</a>
+                            <a class="video-overlay-close">×</a>
                         </div>
                     </div>
                 </div>
@@ -382,27 +382,41 @@
                     <div class="text">
                         <div class="name"></div>
                         <div class="short_desc">
-                            <p>мастер спорта боевых искусств  России,<br> сторонник духовных практик и йоги,<br> спорт-инструктор
+                            <p>мастер спорта боевых искусств России,<br> сторонник духовных практик и йоги,<br>
+                                спорт-инструктор
                                 международного уровня</p>
                         </div>
                         <div class="full_desk">
                             <ul>
-                                <li><p>Четырехкратный чемпион мира по армлифтингу.</p></li>
-                                <li><p>Чемпион 1-го открытого первенства профсоюзов СССР в тяжелом весе.</p></li>
-                                <li><p>Мастер спорта СССР по гиревому спорту, рукопашному бою и победитель <br> первенств КГБ.</p></li>
+                                <li>
+                                    <p>Четырехкратный чемпион мира по армлифтингу.</p>
+                                </li>
+                                <li>
+                                    <p>Чемпион 1-го открытого первенства профсоюзов СССР в тяжелом весе.</p>
+                                </li>
+                                <li>
+                                    <p>Мастер спорта СССР по гиревому спорту, рукопашному бою и победитель <br>
+                                        первенств КГБ.</p>
+                                </li>
                                 <li>
                                     <p>Обладатель Гран-при международного турнира по Тамэсивари «Яростный кулак».
                                     </p>
                                 </li>
-                                <li> <p>8-й дан карате Кекусин Будо-Кай.</p></li>
-                                <li><p>Мастер спорта по жиму лежа, рукопашному бою, таэквондо и армлифтингу.</p></li>
-                                <li><p>Автор обучающих видео с многомиллионными просмотрами.</p></li>
+                                <li>
+                                    <p>8-й дан карате Кекусин Будо-Кай.</p>
+                                </li>
+                                <li>
+                                    <p>Мастер спорта по жиму лежа, рукопашному бою, таэквондо и армлифтингу.</p>
+                                </li>
+                                <li>
+                                    <p>Автор обучающих видео с многомиллионными просмотрами.</p>
+                                </li>
                             </ul>
                         </div>
                         <div class="button">
-                            
-                                    <button type="button">Учиться на марафоне у лучших</button>
-                                
+
+                            <button type="button">Учиться на марафоне у лучших</button>
+
                         </div>
                     </div>
                 </div>
@@ -411,41 +425,44 @@
         <section class="sec10">
             <div class="container">
                 <div class="row">
-<h2><span>С ТОБОЙ ТАКЖЕ БУДУТ ЗАНИМАТЬСЯ <br>
-        </span>ЛУЧШИЕ СПОРТСМЕНЫ И ЭКСПЕРТЫ</h2>
-        <div class="trainers">
-            <div class="trainer">
-                <img src="./assets/img/1tr.jpg" alt="trainer">
-                <div class="text">
-                   <h3>ФЕДОРОВ <br> ВИТАЛИЙ</h3>
-                <p>инструктор йоги, цигун, тай-цзы</p> 
-                </div>
-            </div>
-            <div class="trainer">
-                <img src="./assets/img/2tr.jpg" alt="trainer">
-                <div class="text">
-                    <h3>влад <br> кузнецов</h3>
-                    <p>тренер международного класса, мастер спорта по бодибилдингу</p>
-                </div>
-            </div>
-            <div class="trainer">
-                <img src="./assets/img/3tr.jpg" alt="trainer">
-                <div class="text">
-                    <h3>сергей <br> житниковский</h3>
-                    <p>эксперт по растяжке, практик цигун, тай цзи цюань, хапкидо</p>
-                </div>
-            </div>
-            <div class="trainer">
-                <img src="./assets/img/4tr.jpg" alt="trainer">
-                <div class="text">
-                    <h3>нана <br> хочолава</h3>
-                    <p>Женский тренер, лайф-коуч, фасилитатор PSYCH-KEY, опыт работы более 10 лет. Психологические
-                        направления: телесно-ориентированная психотерапия, кинезиология, позитивная психотерапия,
-                        PSYCH-KEY, трансактный анализ, трансперсональная психология, танцевальная терапия, преобразующий
-                        процессинг, гештальт-терапия.</p>
-                </div>
-            </div>
-        </div>
+                    <h2><span>С ТОБОЙ ТАКЖЕ БУДУТ ЗАНИМАТЬСЯ <br>
+                        </span>ЛУЧШИЕ СПОРТСМЕНЫ И ЭКСПЕРТЫ</h2>
+                    <div class="trainers">
+                        <div class="trainer">
+                            <img src="./assets/img/1tr.jpg" alt="trainer">
+                            <div class="text">
+                                <h3>ФЕДОРОВ <br> ВИТАЛИЙ</h3>
+                                <p>инструктор йоги, цигун, тай-цзы</p>
+                            </div>
+                        </div>
+                        <div class="trainer">
+                            <img src="./assets/img/2tr.jpg" alt="trainer">
+                            <div class="text">
+                                <h3>влад <br> кузнецов</h3>
+                                <p>тренер международного класса, мастер спорта по бодибилдингу</p>
+                            </div>
+                        </div>
+                        <div class="trainer">
+                            <img src="./assets/img/3tr.jpg" alt="trainer">
+                            <div class="text">
+                                <h3>сергей <br> житниковский</h3>
+                                <p>эксперт по растяжке, практик цигун, тай цзи цюань, хапкидо</p>
+                            </div>
+                        </div>
+                        <div class="trainer">
+                            <img src="./assets/img/4tr.jpg" alt="trainer">
+                            <div class="text">
+                                <h3>нана <br> хочолава</h3>
+                                <p>Женский тренер, лайф-коуч, фасилитатор PSYCH-KEY, опыт работы более 10 лет.
+                                    Психологические
+                                    направления: телесно-ориентированная психотерапия, кинезиология, позитивная
+                                    психотерапия,
+                                    PSYCH-KEY, трансактный анализ, трансперсональная психология, танцевальная терапия,
+                                    преобразующий
+                                    процессинг, гештальт-терапия.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section><!-- /section 10-->
@@ -454,70 +471,190 @@
                 <div class="row">
                     <p class="img"><img src="./assets/img/inv_commas.png" alt=""></p>
 
-<p>Ты можешь и дальше читать этот сайт, статьи о спорте, смотреть видео. Можешь ждать, пока появится тот самый <br>
-    момент, чтобы заняться собой, а можешь уже сегодня сделать первый шаг навстречу своему идеальному телу.</p>
-<h2>Победи самого себя <br>
-    на 60-дневном марафоне “Страна Героев 2.0”, <br>
-    благодаря лучшим спортсменам и экспертам</h2>
-    <div class="fullform">
-        <div class="form">
-            <form action="" method="POST">
-                <div class="inpb-block">
-                    <div class="inpb"><input type="text" placeholder="Имя"></div>
-                    <div class="inpb"> <input type="email" placeholder="Email"></div>
-                    <div class="inpb"> <input type="tel" placeholder="Телефон"></div>
-                </div>
+                    <p>Ты можешь и дальше читать этот сайт, статьи о спорте, смотреть видео. Можешь ждать, пока появится
+                        тот самый <br>
+                        момент, чтобы заняться собой, а можешь уже сегодня сделать первый шаг навстречу своему
+                        идеальному телу.</p>
+                    <h2>Победи самого себя <br>
+                        на 60-дневном марафоне “Страна Героев 2.0”, <br>
+                        благодаря лучшим спортсменам и экспертам</h2>
+                    <div class="fullform">
+                        <div class="form">
+                            <form action="" method="POST">
+                                <div class="inpb-block">
+                                    <div class="inpb"><input type="text" placeholder="Имя"></div>
+                                    <div class="inpb"> <input type="email" placeholder="Email"></div>
+                                    <div class="inpb"> <input type="tel" placeholder="Телефон"></div>
+                                </div>
 
-                <button type="button">Зарегистрироваться на марафон</button>
-            </form>
-        </div>
-    </div>
+                                <button type="button">Зарегистрироваться на марафон</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section><!-- /section 11-->
         <section class="sec12">
             <div class="container">
                 <div class="row">
-<div class="videoMessage">
-    <div class="videoRecord">   
-    </div>
-    <div class="textForm">
-        <h2></h2>
-        <p></p>
-        <p></p>
-    </div>
-</div>
+                    <div class="videoMessage">
+                        <div class="videoRecord">
+                            <div class="content">
+                                <button type="button"> <span>начать ЗАПИСЬ видеопослания</span> </button>
+                            </div>
+                        </div>
+                        <div class="textForm">
+                            <h2>ЗАПИши ВИДЕОПОСЛАНИЕ</h2>
+                            <p>Мы даем тебе шанс записать видеопослание самому себе из будущего. <br> Предай привет и
+                                дай самому себе обещание не сдаваться и пройти марафон <br> “Страна Героев 2.0”. Мы
+                                отправим видео на указанный тобой email.</p>
+                                
+                            <p>Когда ты будешь на середине пути, у тебя будет еще один повод пройти <br> марафон до
+                                конца.</p>
+                        </div>
+                    </div>
+                    <div class="fullform ">
+                        <div class="form">
+                            <form action="" method="POST">
+                                <div class="inpb-block">
+                                    <div class="inpb"> <input type="email" placeholder="Введите свой email здесь"></div>
+                                </div>
+                                <button type="button">Получить видеопослание на почту</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section><!-- /section 12-->
         <section class="sec13">
             <div class="container">
                 <div class="row">
+                    <h2>Что такое "СТРАНА ГЕРОЕВ <span>2.0</span> "?</h2>
+                    <div class="border">
+                        <div class="what">
+                            <div class="whatIsIt">Комплекс ежедневных упражнений <br> от Сергея Бадюка и
+                                профессиональных
+                                экспертов</div>
+                            <div class="whatIsIt">Уникальные секреты успеха от <br> Чемпионов в различных видах спорта
+                            </div>
+                            <div class="whatIsIt">Комплекс тренировок, <br>который быстро приведет тебя в форму</div>
+                            <div class="whatIsIt">Индивидуальная программа упражнений (в зависимости от начального
+                                уровня
+                                твоей физической подготовки)</div>
+                            <div class="whatIsIt">Специально продуманная <br>система спортивного питания</div>
+                            <div class="whatIsIt">Работа на результат - <br>прокачка тела, воли, энергии</div>
+                            <div class="whatIsIt">Жёсткая система контроля <br>и поддержания дисциплины</div>
+                            <div class="whatIsIt">Уникальная мотивационная система <br>для неизбежных результатов</div>
+                            <div class="whatIsIt">Еженедельные живые онлайн-семинары с Сергеем Бадюком и ведущими <br>
+                                экспертами России</div>
+                            <div class="whatIsIt">Живые встречи с Сергеем Бадюком и возможность пообщаться с выдающимся <br>
+                                спортсменом, известным актёром и харизматичным шоуменом.</div>
+                        </div>
+
+                        <div class="button">
+
+                            <button type="button">Я хочу пройти марафон!</button>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
-        </section>
+        </section><!-- /section 13-->
         <section class="sec14">
             <div class="container">
                 <div class="row">
+                    <div class="reason">
+                        <h3>8 ЖЕЛЕЗОБЕТОННЫХ ПРИЧИН, <br>
+                            ПОЧЕМУ РЕЗУЛЬТАТ НЕИЗБЕЖЕН!</h3>
+                        <div class="slider">
+                            <div class="swiper-container sliderPag">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide ">
+                                        <div class="text">
+                                            <h2>Причина #1</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо
+                                                раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #2</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #3</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #4</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #5</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #6</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #7</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="text">
+                                            <h2>Причина #8</h2>
+                                            <p>Декларация результатов в начале марафона <br>Если не выполняешь
+                                                упражнения - придётся неслабо раскошелиться.</p>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </section>
-        
+        </section><!-- /section 14-->
+
     </div>
 
 
 
     <script src="./assets/js/countdown.function.js"></script>
     <script src="./assets/js/swiper.min.js"></script>
-   <!--<script src="js/vidbg.js"></script>-->  
+
+    <!--<script src="js/vidbg.js"></script>-->
 
 
 
     <!-- classie.js by @desandro: https://github.com/desandro/classie -->
     <script src="./assets/js/classie.js"></script>
     <script src="./assets/js/modalEffects.js"></script>
+
+
 
     <!-- for the blur effect -->
     <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
@@ -526,8 +663,22 @@
         var polyfilter_scriptpath = './assets/js/';
     </script>
     <script src="./assets/js/jquery-1.11.1.min.js"></script>
-   
+
+
+
     <script src="./assets/js/main.js"></script>
+    <script>
+        var swiperPag = new Swiper('.sliderPag', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + '</span>';
+                },
+            },
+        });
+    </script>
+
 
 </body>
 

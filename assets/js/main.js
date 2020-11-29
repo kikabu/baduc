@@ -1,5 +1,5 @@
    //swiper slider
-   var swiper = new Swiper('.swiper-container', {
+   var swiper = new Swiper('.sliderFirst', {
       loop: true,
      navigation: {
        nextEl: '.button-next',
